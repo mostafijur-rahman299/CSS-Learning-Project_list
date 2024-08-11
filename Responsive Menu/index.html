@@ -33,6 +33,23 @@
                 <li><a href="">Contact</a></li>
             </ul>
         </div>
+
+        <div class="nav-mobile">
+            <div class="menu-icon"><span><span><span></span></span></span></div>
+        </div>
     </div>
 </body>
 </html>
+<script
+  src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+  integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+  crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.menu-icon').click(function(){
+            $('.nav-bar').toggleClass('visible');
+        })
+    })
+</script>
+
